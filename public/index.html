@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<title>3D Multiplayer Game</title>
+	<link rel='stylesheet' href="css/main.css" />
+	<script src="https://www.gstatic.com/firebasejs/3.0.0/firebase.js"></script>
+	<script src="js/lib/three.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.146.0/three.js" ></script> -->
+	<script src="js/lib/PlayerControls.js"></script>
+	<script src="https://r105.threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/GLTFLoader.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/css3drenderer@0.0.0/CSS3DRenderer.min.js"></script> -->
+<!-- <script src="https://r105.threejsfundamentals.org/threejs/../3rdparty/dat.gui.min.js"></script> -->
+	<script>
+	  // Initialize Firebase
+	  var config = {
+		apiKey: "AIzaSyAvU_5v6r7xijtHfOvIfvh9R5XU3jzw6s8",
+		authDomain: "devchata-1410d.firebaseapp.com",
+	      databaseURL: 'https://devchata-1410d-default-rtdb.firebaseio.com',
+			storageBucket: "devchata-1410d.appspot.com",
+	    };
+		firebase.initializeApp(config);
+
+var fbRef = firebase.database().ref();
+
+
+	  
+	</script>
+</head>
+<body>
+	<div id='container'></div>
+	<script src="js/player.js"></script>
+	<script src="js/game.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/css3d.js"></script>
+	<script ></script>
+</body>
+</html>
