@@ -83,7 +83,7 @@ function loadWorld() {
 		const planeSize = 10;
 	
 		var loader = new THREE.TextureLoader();
-		var texture = loader.load(public/js/textures/grass.jpg');
+		var texture = loader.load(/public/js/textures/grass.jpg');
 		texture.wrapS = THREE.RepeatWrapping;
 		texture.wrapT = THREE.RepeatWrapping;
 		texture.magFilter = THREE.NearestFilter;
